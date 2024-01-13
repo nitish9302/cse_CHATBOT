@@ -1,0 +1,764 @@
+{
+  "intents": [
+    {
+      "name": "Greetings",
+      "patterns": ["Hello", "Hi", "Hey", "Greetings", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What brings you here?", "Hey! How can I help you?"]
+    },
+    {
+      "name": "Acknowledgment",
+      "patterns": ["Who created you?", "Who is your creator?", "Acknowledgment"],
+      "responses": [
+        "I was created by Nitish Chauhan.",
+        "My creator is Nitish Chauhan. Acknowledgments to him!",
+        "Nitish Chauhan is the mastermind behind my creation."
+      ]
+    },
+    {
+      "name": "BotPurpose",
+      "patterns": ["What is your purpose?", "Why were you created?", "Bot's purpose"],
+      "responses": [
+        "I was created to serve as an intelligent assistant for Computer Science and Engineering-related queries.",
+        "My purpose is to provide information and assistance in the field of Computer Science and Engineering.",
+        "I'm here to help you with intelligent responses related to Computer Science and Engineering."
+      ]
+    },
+    {
+      "name": "Capabilities",
+      "patterns": ["What can you do?", "Tell me your capabilities", "Bot features"],
+      "responses": [
+        "I can provide information, answer questions, and engage in intelligent conversations about Computer Science and Engineering.",
+        "My capabilities include answering queries, assisting with programming concepts, and discussing topics related to Computer Science.",
+        "I'm equipped to handle intelligent conversations on a wide range of Computer Science and Engineering subjects."
+      ]
+    },
+    {
+      "name": "CreatorInformation",
+      "patterns": ["Tell me about the creator", "Who is Nitish Chauhan?", "Creator details"],
+      "responses": [
+        "Nitish Chauhan is a 19-year-old student.",
+        "The creator, Nitish Chauhan, is a 3rd-semester student in the Computer Science and Engineering branch.",
+        "Nitish Chauhan is a Bachelor of Technology student at F1 section with the student ID 220111144."
+      ]
+    },
+    {
+      "name": "BasicInteraction",
+      "patterns": ["How are you?", "What can you do?", "Tell me about yourself"],
+      "responses": [
+        "I'm just a computer program designed to assist you.",
+        "I can help you with information and answer your questions.",
+        "I'm here to provide information and engage in conversation with you."
+      ]
+    },
+    {
+      "name": "ContactInformation",
+      "patterns": ["How can I contact Nitish Chauhan?", "Is there a way to provide feedback?"],
+      "responses": ["You can contact Nitish Chauhan through LinkedIn : ", "Feel free to provide feedback via mail : nitishchauhan7505@gmail.com"]
+    },
+    {
+      "name": "UpdatesAndMaintenance",
+      "patterns": ["Are there any planned updates?", "How is the chatbot maintained?"],
+      "responses": ["Updates are planned regularly.", "Maintenance involves..."]
+    },
+    {
+      "name": "ThankYou",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome! If you need further assistance, let me know.", "No problem! Happy to help.", "You're welcome! Feel free to ask anything else."]
+    },
+    {
+      "name": "Apology",
+      "patterns": ["Sorry", "Apologies", "My apologies", "I'm sorry"],
+      "responses": ["No problem at all!", "No need to apologize. How can I assist you?", "It's okay. Is there anything else you'd like to know?"]
+    },
+    {
+      "name": "SmallTalk",
+      "patterns": ["How are you?", "What's up?", "How's your day?", "Tell me a joke", "Chat with me"],
+      "responses": ["I'm just a computer program, but I'm here to assist you!", "Not much, just here to help. How about you?", "I'm doing well. Want to chat about something specific?"]
+    },
+    {
+      "name": "Compliment",
+      "patterns": ["You're great", "You're helpful", "I like you", "Good job"],
+      "responses": ["Thank you! I'm here to assist you to the best of my abilities.", "I appreciate the compliment! How can I make your day even better?", "Glad to be of help! If you have more questions, feel free to ask."]
+    },
+    {
+      "name": "TimeOfDay",
+      "patterns": ["What time is it?", "What's the time?", "Is it morning or evening?"],
+      "responses": ["I don't have access to real-time information, but I'm here to help with your questions!", "I'm not equipped to tell the time, but I can assist you with information."]
+    },
+    {
+      "name": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Farewell"],
+      "responses": ["Goodbye! If you have more questions, feel free to ask.", "Bye! Have a great day exploring computer science."]
+    },
+    {
+      "name": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome! If you need more assistance in computer science, just let me know.", "No problem! Happy to help with computer science."]
+    },
+    {
+      "name": "help",
+      "patterns": ["Help", "Assistance", "Can you help me?", "I need support"],
+      "responses": ["Absolutely! What computer science topic do you need assistance with?", "Sure, I'm here to help with anything related to computer science. What do you need?"]
+    },
+    {
+      "name": "Hobbies",
+      "patterns": ["What are your hobbies?", "Do you have any interests?", "Tell me about yourself"],
+      "responses": ["I don't have hobbies, but I'm here to assist you with any questions you have!", "I'm just a computer program, so no hobbies for me. How can I help you today?"]
+    },
+    {
+      "name": "FavoriteMovies",
+      "patterns": ["What's your favorite movie?", "Tell me a movie recommendation", "Any favorite films?"],
+      "responses": ["I don't watch movies, but I can help you find information about them! What genre are you interested in?", "I don't have preferences, but I can suggest popular movies. What type are you in the mood for?"]
+    },
+    {
+      "name": "Travel",
+      "patterns": ["Have you traveled anywhere?", "Tell me about your favorite travel destination", "Do you like to travel?"],
+      "responses": ["I haven't traveled, but I can provide information about various places! Where would you like to know more about?", "I don't travel, but I can assist you with travel-related information. Where would you like to go?"]
+    },
+    {
+      "name": "Books",
+      "patterns": ["What's your favorite book?", "Any book recommendations?", "Do you like to read?"],
+      "responses": ["I don't have preferences, but I can recommend books based on your interests. What genre do you enjoy?", "I don't read, but I can suggest books for you. What kind of books do you like?"]
+    },
+    {
+      "name": "TechnologyTrends",
+      "patterns": ["Tell me about current technology trends", "What's new in the tech world?", "Any interesting tech news?"],
+      "responses": ["I can provide information about the latest technology trends! What specific area are you interested in?", "Certainly! What technology trends are you curious about?"]
+    },
+    {
+      "name": "Weather",
+      "patterns": ["How's the weather today?", "Tell me about the weather forecast", "What's the temperature like?"],
+      "responses": ["I don't have real-time information, but I can help you find the current weather. Which location are you interested in?", "I can't provide real-time weather updates, but I can guide you on where to check. Where are you located?"]
+    },
+    {
+      "name": "programming_languages",
+      "patterns": ["Tell me about programming languages", "Best programming language", "Learn a programming language"],
+      "responses": ["There are several programming languages. The best one depends on your goals. Do you have a specific language in mind or need recommendations?"]
+    },
+    {
+      "name": "algorithm",
+      "patterns": ["Explain algorithms", "Algorithm examples", "Algorithm complexity"],
+      "responses": ["Sure, I can help with algorithms. What specific aspect or algorithm are you interested in learning about?"]
+    },
+    {
+      "name": "data_structures",
+      "patterns": ["Data structures introduction", "Common data structures", "Data structure examples"],
+      "responses": ["Data structures are essential. Which data structure are you curious about, or do you need an introduction?"]
+    },
+    {
+      "name": "machine_learning",
+      "patterns": ["What is machine learning?", "Machine learning algorithms", "Applications of machine learning"],
+      "responses": ["Machine learning is fascinating! What specific information or application are you interested in within the field of machine learning?"]
+    },
+    {
+      "name": "career_advice",
+      "patterns": ["Computer science career paths", "Job in computer science", "Career advice"],
+      "responses": ["The field of computer science offers various career paths. Are you looking for specific career advice or information about a particular role?"]
+    },
+    {
+      "name": "web_development",
+      "patterns": ["Web development basics", "HTML, CSS, JavaScript", "Web frameworks"],
+      "responses": ["Web development is exciting! What specific aspect would you like to know more about: basics, specific languages, or frameworks?"]
+    },
+    {
+      "name": "database",
+      "patterns": ["Database fundamentals", "SQL vs NoSQL", "Database design principles"],
+      "responses": ["Databases are crucial. Do you have a specific question about database fundamentals or design principles?"]
+    },
+    {
+      "name": "cybersecurity",
+      "patterns": ["Cybersecurity overview", "Protecting against cyber threats", "Security best practices"],
+      "responses": ["Cybersecurity is essential! What specific aspect of cybersecurity are you interested in learning more about?"]
+    },
+    {
+      "name": "networking",
+      "patterns": ["Networking basics", "TCP/IP, DNS, HTTP", "Network security"],
+      "responses": ["Networking is fundamental. Do you have specific questions about networking basics or security measures?"]
+    },
+    {
+      "name": "software_engineering",
+      "patterns": ["Software engineering methodologies", "Agile vs Waterfall", "Software development life cycle"],
+      "responses": ["Software engineering is diverse. What specific aspect or methodology are you interested in within software engineering?"]
+    },
+    {
+      "name": "artificial_intelligence",
+      "patterns": ["Artificial intelligence concepts", "AI applications", "Machine learning in AI"],
+      "responses": ["Artificial intelligence is fascinating! What specific concept or application would you like to explore within AI?"]
+    },
+    {
+      "name": "coding_practices",
+      "patterns": ["Best coding practices", "Code optimization", "Code review tips"],
+      "responses": ["Coding practices are important. Do you have a specific question about best practices, optimization, or code reviews?"]
+    },
+    {
+      "name": "problem_solving",
+      "patterns": ["Problem-solving strategies", "Algorithmic problem-solving", "Debugging techniques"],
+      "responses": ["Problem-solving is a key skill. What specific strategies or techniques would you like to know more about?"]
+    },
+    {
+      "name": "resources",
+      "patterns": ["Recommended CS books", "Online learning platforms", "Coding tutorials"],
+      "responses": ["There are many great resources. Are you looking for books, online platforms, or coding tutorials?"]
+    },
+    {
+      "name": "latest_technologies",
+      "patterns": ["Latest technologies in CS", "Emerging trends", "Cutting-edge technologies"],
+      "responses": ["Technology evolves quickly. What specific area of the latest technologies are you interested in within computer science?"]
+    },
+    {
+      "name": "ai_ml_intro",
+      "patterns": ["Introduction to AI", "What is Machine Learning", "AI vs ML"],
+      "responses": ["Artificial Intelligence is the broader concept, while Machine Learning is a subset of AI. How can I assist you in understanding these concepts better?"]
+    },
+    {
+      "name": "ml_algorithms",
+      "patterns": ["Types of ML algorithms", "Supervised vs Unsupervised Learning", "Reinforcement Learning"],
+      "responses": ["Machine Learning has various types of algorithms. Do you have a specific type or algorithm in mind, or would you like an overview of the different types?"]
+    },
+    {
+      "name": "deep_learning",
+      "patterns": ["What is Deep Learning", "Neural networks", "Deep learning applications"],
+      "responses": ["Deep Learning involves neural networks with multiple layers. Would you like more details on neural networks or specific applications of deep learning?"]
+    },
+    {
+      "name": "ai_ethics",
+      "patterns": ["Ethical considerations in AI", "AI bias", "Responsible AI"],
+      "responses": ["Ethics is crucial in AI. Are you interested in understanding ethical considerations, bias mitigation, or responsible AI practices?"]
+    },
+    {
+      "name": "nlp",
+      "patterns": ["Natural Language Processing (NLP)", "Chatbots and NLP", "NLP applications"],
+      "responses": ["Natural Language Processing is fascinating! Do you have questions about how it works, applications in chatbots, or other NLP-related topics?"]
+    },
+    {
+      "name": "computer_vision",
+      "patterns": ["Computer Vision basics", "Image recognition", "Object detection"],
+      "responses": ["Computer Vision involves teaching machines to interpret visual information. What specific aspect or application are you curious about in computer vision?"]
+    },
+    {
+      "name": "ai_ml_tools",
+      "patterns": ["AI and ML tools", "Popular ML libraries", "AI development platforms"],
+      "responses": ["There are many tools available. Are you looking for information on popular ML libraries, AI development platforms, or specific tools for a task?"]
+    },
+    {
+      "name": "ml_use_cases",
+      "patterns": ["Real-world ML use cases", "Applications of AI in industries", "ML success stories"],
+      "responses": ["Machine Learning has diverse applications. Are you interested in specific use cases, industries using AI, or success stories in ML?"]
+    },
+    {
+      "name": "ml_challenges",
+      "patterns": ["Challenges in ML", "Overcoming ML obstacles", "Common ML pitfalls"],
+      "responses": ["Machine Learning comes with challenges. Do you have questions about overcoming obstacles, common pitfalls, or challenges in ML projects?"]
+    },
+    {
+      "name": "ml_trends",
+      "patterns": ["Current trends in ML", "AI and ML future", "Emerging technologies"],
+      "responses": ["The field is evolving. What specific trends or emerging technologies in AI and ML are you interested in exploring?"]
+    },
+    {
+      "name": "social_networking_intro",
+      "patterns": ["What is social networking?", "Introduction to social media", "Social network definition"],
+      "responses": ["Social networking involves connecting and interacting with others online. How can I help you understand more about social networking?"]
+    },
+    {
+      "name": "popular_platforms",
+      "patterns": ["Popular social media platforms", "Top social networks", "Most used social apps"],
+      "responses": ["There are various social media platforms. Would you like information on popular ones, specific features, or comparisons between them?"]
+    },
+    {
+      "name": "privacy_settings",
+      "patterns": ["How to manage privacy settings", "Protecting my social media privacy", "Privacy on social networks"],
+      "responses": ["Privacy is important. Do you have questions about adjusting privacy settings, protecting your information, or general tips for online privacy?"]
+    },
+    {
+      "name": "social_media_marketing",
+      "patterns": ["Social media marketing basics", "Promoting on social networks", "Marketing strategies"],
+      "responses": ["Social media is powerful for marketing. What specific information or strategies are you interested in regarding social media marketing?"]
+    },
+    {
+      "name": "community_building",
+      "patterns": ["Building an online community", "Engaging on social media", "Community management tips"],
+      "responses": ["Creating a community takes effort. Are you looking for tips on building and managing an online community on social media platforms?"]
+    },
+    {
+      "name": "social_trends",
+      "patterns": ["Current social media trends", "Emerging social networking features", "Latest in social media"],
+      "responses": ["Social media evolves. What specific trends or features are you interested in exploring within the current landscape of social networking?"]
+    },
+    {
+      "name": "social_impact",
+      "patterns": ["Social media's impact on society", "Positive effects of social networking", "Challenges of social media"],
+      "responses": ["Social media has a significant impact. Are you interested in the positive effects, challenges, or broader societal impacts of social networking?"]
+    },
+    {
+      "name": "social_media_etiquette",
+      "patterns": ["Social media etiquette", "Proper behavior online", "Dos and Don/'ts on social networks"],
+      "responses": ["Etiquette is crucial. Do you have questions about proper behavior, dos and don/'ts, or general etiquette on social media platforms?"]
+    },
+    {
+      "name": "social_networking_apps",
+      "patterns": ["Mobile apps for social networking", "Social networking on smartphones", "Best social media apps"],
+      "responses": ["Many social networking apps are available. Are you looking for information on mobile apps, features, or recommendations for social networking on smartphones?"]
+    },
+    {
+      "name": "online_safety",
+      "patterns": ["Staying safe online", "Online safety tips", "Security on social networks"],
+      "responses": ["Safety is paramount. Do you have questions about staying safe online, security measures, or general tips for protecting yourself on social networks?"]
+    },
+    {
+      "name": "programming_languages_intro",
+      "patterns": ["What are programming languages?", "Introduction to coding languages", "Definition of programming languages"],
+      "responses": ["Programming languages are tools for creating software. How can I help you understand more about programming languages?"]
+    },
+    {
+      "name": "popular_languages",
+      "patterns": ["Most popular programming languages", "Top coding languages", "Commonly used programming languages"],
+      "responses": ["There are many programming languages. Would you like information on the most popular ones, specific use cases, or comparisons between them?"]
+    },
+    {
+      "name": "learning_languages",
+      "patterns": ["Best languages for beginners", "Easiest coding languages to learn", "Programming languages for starters"],
+      "responses": ["Choosing a language is important. Are you looking for recommendations on the best languages for beginners or specific advice for starting out?"]
+    },
+    {
+      "name": "web_development_languages",
+      "patterns": ["Languages for web development", "Frontend vs Backend languages", "Web development coding languages"],
+      "responses": ["Web development involves specific languages. Do you have questions about frontend, backend, or full-stack development languages?"]
+    },
+    {
+      "name": "mobile_app_languages",
+      "patterns": ["Languages for mobile app development", "iOS vs Android development languages", "Mobile app coding languages"],
+      "responses": ["Mobile app development uses specific languages. Are you interested in iOS, Android, or cross-platform development languages?"]
+    },
+    {
+      "name": "data_science_languages",
+      "patterns": ["Languages for data science", "Data analysis coding languages", "Data science programming languages"],
+      "responses": ["Data science has its languages. Do you have questions about Python, R, or other languages used in data analysis and machine learning?"]
+    },
+    {
+      "name": "functional_languages",
+      "patterns": ["Functional programming languages", "Benefits of functional programming", "Examples of functional languages"],
+      "responses": ["Functional programming has unique features. Would you like information on functional programming languages, their benefits, or specific examples?"]
+    },
+    {
+      "name": "game_dev_languages",
+      "patterns": ["Languages for game development", "Coding languages in game design", "Game development programming languages"],
+      "responses": ["Game development involves specific languages. Are you interested in languages commonly used in game design and development?"]
+    },
+    {
+      "name": "new_languages",
+      "patterns": ["Emerging programming languages", "New coding languages", "Upcoming languages in software development"],
+      "responses": ["Software development is dynamic. What specific information or trends are you interested in regarding emerging or new programming languages?"]
+    },
+    {
+      "name": "language_comparison",
+      "patterns": ["Comparison of programming languages", "Pros and cons of coding languages", "Which language to choose"],
+      "responses": ["Choosing a language depends on your goals. Do you have specific criteria or preferences for a programming language, or do you need a comparison of multiple languages?"]
+    },
+    {
+      "name": "cse_intro",
+      "patterns": ["What is Computer Science Engineering?", "Introduction to CSE", "Definition of Computer Science Engineering"],
+      "responses": ["Computer Science Engineering involves the study of computing systems and software. How can I assist you in understanding more about CSE?"]
+    },
+    {
+      "name": "cse_specializations",
+      "patterns": ["CSE specializations", "Branches in Computer Science Engineering", "Areas of specialization"],
+      "responses": ["CSE offers various specializations. Are you interested in information about specific branches within Computer Science Engineering or exploring different areas of specialization?"]
+    },
+    {
+      "name": "cse_career_paths",
+      "patterns": ["Career paths in CSE", "Jobs for Computer Science Engineers", "CSE career opportunities"],
+      "responses": ["Computer Science Engineering opens up diverse career paths. Would you like information on specific job roles, career opportunities, or advice on pursuing a career in CSE?"]
+    },
+    {
+      "name": "cse_courses",
+      "patterns": ["Courses in Computer Science Engineering", "CSE curriculum", "Educational programs in CSE"],
+      "responses": ["CSE programs cover various courses. Are you looking for information on specific courses, the overall curriculum, or educational programs in Computer Science Engineering?"]
+    },
+    {
+      "name": "research_in_cse",
+      "patterns": ["Research in CSE", "Latest trends in Computer Science research", "CSE research areas"],
+      "responses": ["Research is vital in CSE. Are you interested in the latest trends in computer science research, specific research areas, or ongoing projects?"]
+    },
+    {
+      "name": "cse_projects",
+      "patterns": ["Computer Science projects", "CSE project ideas", "Project work in CSE"],
+      "responses": ["Projects are crucial in CSE. Do you need ideas for computer science projects, guidance on project work, or information on project-based learning in CSE?"]
+    },
+    {
+      "name": "cse_tools",
+      "patterns": ["Tools used in CSE", "Software for Computer Science Engineers", "Development tools in CSE"],
+      "responses": ["CSE professionals use various tools. Are you looking for information on software development tools, programming environments, or specific tools used in Computer Science Engineering?"]
+    },
+    {
+      "name": "cse_ethics",
+      "patterns": ["Ethics in Computer Science", "Responsible CSE practices", "CSE and ethical considerations"],
+      "responses": ["Ethics is important in CSE. Are you interested in understanding ethical considerations, responsible practices, or the impact of CSE on society?"]
+    },
+    {
+      "name": "cse_future_trends",
+      "patterns": ["Future trends in CSE", "Emerging technologies", "What's next in Computer Science Engineering"],
+      "responses": ["CSE is always evolving. What specific trends or emerging technologies in Computer Science Engineering are you interested in exploring for the future?"]
+    },
+    {
+      "name": "cse_industry_connect",
+      "patterns": ["Industry connections in CSE", "CSE internships", "Networking in the CSE industry"],
+      "responses": ["Industry connections are valuable. Do you have questions about CSE internships, networking in the industry, or establishing connections in Computer Science Engineering?"]
+    },
+    {
+      "name": "cse_syllabus",
+      "patterns": ["Computer Science syllabus", "CSE curriculum", "Subjects in Computer Science"],
+      "responses": ["The Computer Science syllabus covers various subjects. Are you looking for information on specific subjects, the overall curriculum, or details about a particular course in the CSE program?"]
+    },
+    {
+      "name": "cse_exam_preparation",
+      "patterns": ["How to prepare for CSE exams", "CSE exam tips", "Strategies for Computer Science exams"],
+      "responses": ["Exam preparation is crucial. Would you like tips on preparing for Computer Science exams, effective study strategies, or advice on managing exam stress?"]
+    },
+    {
+      "name": "cse_exam_schedule",
+      "patterns": ["Computer Science exam schedule", "CSE exam dates", "Upcoming exams in CSE"],
+      "responses": ["Staying informed about exam schedules is important. Are you looking for information on upcoming Computer Science exams, important dates, or exam schedules for your program?"]
+    },
+    {
+      "name": "cse_exam_patterns",
+      "patterns": ["Computer Science exam patterns", "CSE question formats", "Types of questions in CSE exams"],
+      "responses": ["Exam patterns can vary. Do you have questions about the types of questions in Computer Science exams, formats, or specific details about the examination pattern?"]
+    },
+    {
+      "name": "cse_grading_system",
+      "patterns": ["Computer Science grading system", "CSE exam grades", "Grading criteria in CSE"],
+      "responses": ["Understanding the grading system is important. Are you looking for information on the grading system used in Computer Science exams, criteria for assessment, or how grades are assigned?"]
+    },
+    {
+      "name": "cse_exam_resources",
+      "patterns": ["Resources for CSE exam preparation", "Study materials for Computer Science exams", "CSE exam reference materials"],
+      "responses": ["Having the right resources is key. Are you looking for study materials, reference books, or online resources to help with your preparation for Computer Science exams?"]
+    },
+    {
+      "name": "cse_practical_exams",
+      "patterns": ["Practical exams in CSE", "Lab exams in Computer Science", "CSE practical assessments"],
+      "responses": ["Practical exams are hands-on. Do you have questions about the practical assessments, lab exams, or hands-on evaluations in Computer Science?"]
+    },
+    {
+      "name": "cse_exam_results",
+      "patterns": ["Computer Science exam results", "CSE result announcement", "Checking CSE exam results"],
+      "responses": ["Results are important. Are you looking for information on how and when Computer Science exam results are announced, or how to check your results?"]
+    },
+    {
+      "name": "cse_exam_feedback",
+      "patterns": ["Feedback on CSE exams", "Improving exam performance", "CSE exam review"],
+      "responses": ["Feedback is valuable for improvement. Would you like tips on getting feedback on your Computer Science exams, and strategies to enhance your performance based on the feedback received?"]
+    },
+    {
+      "name": "cse_exam_anxiety",
+      "patterns": ["Dealing with exam anxiety in CSE", "Coping with stress during Computer Science exams", "Overcoming exam nerves"],
+      "responses": ["Exam anxiety is common. Are you looking for strategies to manage stress, cope with exam anxiety, or overcome nervousness during Computer Science exams?"]
+    },
+    {
+      "name": "ds_intro",
+      "patterns": ["What are Data Structures?", "Introduction to DS", "Definition of Data Structures"],
+      "responses": ["Data Structures organize and store data effectively. How can I help you understand more about Data Structures?"]
+    },
+    {
+      "name": "ds_basics",
+      "patterns": ["Basics of Data Structures", "Fundamentals of DS", "Essential concepts in Data Structures"],
+      "responses": ["Understanding the basics is crucial. Are you looking for information on fundamental concepts, basic operations, or key terms in Data Structures?"]
+    },
+    {
+      "name": "ds_types",
+      "patterns": ["Types of Data Structures", "Categories of DS", "Data Structure classification"],
+      "responses": ["Data Structures come in various types. Do you have questions about different categories, types, or the classification of Data Structures?"]
+    },
+    {
+      "name": "array",
+      "patterns": ["Arrays in Data Structures", "Array operations", "Working with arrays"],
+      "responses": ["Arrays are fundamental in Data Structures. Would you like information on array operations, usage, or tips for working with arrays?"]
+    },
+    {
+      "name": "linked_list",
+      "patterns": ["Linked Lists in Data Structures", "Types of linked lists", "Operations on linked lists"],
+      "responses": ["Linked Lists are versatile. Do you need information on types of linked lists, common operations, or best practices when working with linked data structures?"]
+    },
+    {
+      "name": "stack",
+      "patterns": ["Stacks in Data Structures", "Stack operations", "Implementing stacks"],
+      "responses": ["Stacks are important for managing data. Are you interested in stack operations, implementations, or practical use cases for stacks in Data Structures?"]
+    },
+    {
+      "name": "queue",
+      "patterns": ["Queues in Data Structures", "Queue operations", "Working with queues"],
+      "responses": ["Queues play a key role in Data Structures. Do you have questions about queue operations, types of queues, or how to work with queues effectively?"]
+    },
+    {
+      "name": "tree",
+      "patterns": ["Trees in Data Structures", "Types of trees", "Tree traversal algorithms"],
+      "responses": ["Trees are hierarchical structures. Would you like information on types of trees, tree traversal algorithms, or common operations on trees in Data Structures?"]
+    },
+    {
+      "name": "graph",
+      "patterns": ["Graphs in Data Structures", "Graph algorithms", "Graph traversal techniques"],
+      "responses": ["Graphs are versatile structures. Do you have questions about graph algorithms, types of graphs, or traversal techniques in Data Structures?"]
+    },
+    {
+      "name": "hashing",
+      "patterns": ["Hashing in Data Structures", "Hash functions", "Hash table operations"],
+      "responses": ["Hashing is efficient for data retrieval. Would you like information on hash functions, hash table operations, or practical use cases for hashing in Data Structures?"]
+    },
+    {
+      "name": "algo_intro",
+      "patterns": ["What are Algorithms?", "Introduction to algorithms", "Definition of algorithms"],
+      "responses": ["Algorithms are step-by-step procedures. How can I help you understand more about algorithms?"]
+    },
+    {
+      "name": "algo_basics",
+      "patterns": ["Basics of algorithms", "Fundamentals of algorithm design", "Essential concepts in algorithms"],
+      "responses": ["Understanding the basics is crucial. Are you looking for information on fundamental concepts, algorithm design principles, or key terms related to algorithms?"]
+    },
+    {
+      "name": "sorting_algorithms",
+      "patterns": ["Sorting algorithms", "Types of sorting algorithms", "How do sorting algorithms work?"],
+      "responses": ["Sorting is a common algorithmic task. Would you like information on different types of sorting algorithms, how they work, or their time complexities?"]
+    },
+    {
+      "name": "searching_algorithms",
+      "patterns": ["Searching algorithms", "Types of searching algorithms", "How do searching algorithms work?"],
+      "responses": ["Searching is fundamental in algorithms. Do you have questions about types of searching algorithms, their implementations, or their efficiency?"]
+    },
+    {
+      "name": "graph_algorithms",
+      "patterns": ["Graph algorithms", "Common graph algorithms", "Graph traversal techniques"],
+      "responses": ["Graphs are versatile in algorithms. Would you like information on common graph algorithms, traversal techniques, or applications of graph algorithms?"]
+    },
+    {
+      "name": "dynamic_programming",
+      "patterns": ["Dynamic programming", "Dynamic programming in algorithms", "Optimizing with dynamic programming"],
+      "responses": ["Dynamic programming is a powerful technique. Are you interested in understanding dynamic programming, its applications, or how to approach problems using this technique?"]
+    },
+    {
+      "name": "greedy_algorithm",
+      "patterns": ["Greedy algorithms", "Applications of greedy algorithms", "Greedy algorithm approach"],
+      "responses": ["Greedy algorithms make locally optimal choices. Do you have questions about applications of greedy algorithms, their approach, or when to use them?"]
+    },
+    {
+      "name": "divide_and_conquer",
+      "patterns": ["Divide and conquer algorithms", "Divide and conquer strategy", "Solving problems with divide and conquer"],
+      "responses": ["Divide and conquer is a powerful paradigm. Would you like information on how divide and conquer algorithms work, their applications, or problem-solving strategies using this approach?"]
+    },
+    {
+      "name": "complexity_analysis",
+      "patterns": ["Time complexity analysis", "Space complexity in algorithms", "Big O notation"],
+      "responses": ["Analyzing complexity is essential. Do you have questions about time complexity, space complexity, or understanding Big O notation in the context of algorithms?"]
+    },
+    {
+      "name": "randomized_algorithms",
+      "patterns": ["Randomized algorithms", "How do randomized algorithms work?", "Applications of randomness in algorithms"],
+      "responses": ["Randomized algorithms use randomness. Are you interested in understanding how randomized algorithms work, their applications, or the role of randomness in algorithms?"]
+    },
+    {
+      "name": "algorithm_optimization",
+      "patterns": ["Algorithm optimization techniques", "Optimizing algorithms for efficiency", "Improving algorithm performance"],
+      "responses": ["Optimizing algorithms is crucial. Would you like information on techniques for algorithm optimization, improving efficiency, or making algorithms more scalable?"]
+    },
+    {
+      "name": "cloud_intro",
+      "patterns": ["What is Cloud Computing?", "Introduction to Cloud", "Cloud Computing definition"],
+      "responses": ["Cloud Computing is about on-demand services. How can I help you understand more about Cloud Computing?"]
+    },
+    {
+      "name": "cloud_models",
+      "patterns": ["Cloud Computing service models", "IaaS, PaaS, SaaS", "Cloud deployment models"],
+      "responses": ["Cloud services have various models. Do you have questions about Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS), or different deployment models?"]
+    },
+    {
+      "name": "cloud_providers",
+      "patterns": ["Popular cloud service providers", "Top cloud companies", "Leading cloud platforms"],
+      "responses": ["Several companies provide cloud services. Are you looking for information on popular cloud service providers, their features, or comparisons between them?"]
+    },
+    {
+      "name": "cloud_security",
+      "patterns": ["Security in Cloud Computing", "Cloud security best practices", "Ensuring data safety in the cloud"],
+      "responses": ["Security is crucial in the cloud. Do you have questions about best practices, measures, or tools to ensure data safety in Cloud Computing?"]
+    },
+    {
+      "name": "cloud_cost_management",
+      "patterns": ["Cost management in Cloud Computing", "Optimizing cloud expenses", "Cloud cost control strategies"],
+      "responses": ["Managing costs is important in the cloud. Are you looking for tips on optimizing expenses, cost control strategies, or tools to manage costs in Cloud Computing?"]
+    },
+    {
+      "name": "cloud_migrations",
+      "patterns": ["Cloud migration strategies", "Moving to the cloud", "Transitioning to Cloud Computing"],
+      "responses": ["Migrating to the cloud requires planning. Do you need information on migration strategies, challenges, or best practices for transitioning to Cloud Computing?"]
+    },
+    {
+      "name": "serverless_computing",
+      "patterns": ["Serverless Computing", "Functions as a Service (FaaS)", "Benefits of serverless architecture"],
+      "responses": ["Serverless computing simplifies development. Are you interested in understanding serverless architecture, Functions as a Service (FaaS), or the benefits of serverless computing?"]
+    },
+    {
+      "name": "cloud_trends",
+      "patterns": ["Current trends in Cloud Computing", "Emerging technologies", "What's next in cloud technology"],
+      "responses": ["Cloud technology is evolving. What specific trends or emerging technologies in Cloud Computing are you interested in exploring for the future?"]
+    },
+    {
+      "name": "cloud_certifications",
+      "patterns": ["Cloud Computing certifications", "Certification for cloud professionals", "Getting certified in Cloud"],
+      "responses": ["Certifications validate cloud skills. Are you looking for information on Cloud Computing certifications, their benefits, or recommendations for cloud professionals?"]
+    },
+    {
+      "name": "edge_computing",
+      "patterns": ["Edge Computing in Cloud", "Edge computing benefits", "Applications of edge computing"],
+      "responses": ["Edge Computing extends cloud capabilities. Would you like information on the benefits of edge computing, applications, or its role in Cloud Computing?"]
+    },
+    {
+      "name": "cybersecurity_intro",
+      "patterns": ["What is Cybersecurity?", "Introduction to cybersecurity", "Cybersecurity definition"],
+      "responses": ["Cybersecurity is about protecting digital assets. How can I help you understand more about cybersecurity?"]
+    },
+    {
+      "name": "cyber_threats",
+      "patterns": ["Common cyber threats", "Types of cyber attacks", "Cybersecurity threats"],
+      "responses": ["Cyber threats are diverse. Do you have questions about common types of cyber attacks, how they work, or measures to mitigate them?"]
+    },
+    {
+      "name": "security_measures",
+      "patterns": ["Cybersecurity measures", "Best practices for security", "Protecting against cyber threats"],
+      "responses": ["Security measures are essential. Are you looking for information on best practices, preventive measures, or tools to protect against cyber threats?"]
+    },
+    {
+      "name": "network_security",
+      "patterns": ["Network security in cybersecurity", "Securing computer networks", "Network security practices"],
+      "responses": ["Network security is crucial. Do you have questions about securing computer networks, practices to enhance network security, or tools used in network security?"]
+    },
+    {
+      "name": "encryption",
+      "patterns": ["Encryption in cybersecurity", "Data encryption techniques", "Importance of encryption"],
+      "responses": ["Encryption safeguards data. Would you like information on encryption techniques, the role of encryption in cybersecurity, or best practices for data encryption?"]
+    },
+    {
+      "name": "incident_response",
+      "patterns": ["Incident response in cybersecurity", "Handling security incidents", "Cybersecurity incident management"],
+      "responses": ["Incident response is critical. Are you interested in understanding how to handle security incidents, incident response strategies, or the incident management process in cybersecurity?"]
+    },
+    {
+      "name": "cybersecurity_tools",
+      "patterns": ["Cybersecurity tools", "Security software", "Tools for cybersecurity professionals"],
+      "responses": ["Various tools support cybersecurity efforts. Are you looking for information on cybersecurity tools, their functionalities, or recommendations for security software?"]
+    },
+    {
+      "name": "ethical_hacking",
+      "patterns": ["Ethical hacking", "White hat hacking", "Ethical hacking certifications"],
+      "responses": ["Ethical hacking identifies vulnerabilities. Would you like information on ethical hacking, the role of white hat hackers, or certifications for ethical hacking professionals?"]
+    },
+    {
+      "name": "cybersecurity_careers",
+      "patterns": ["Careers in cybersecurity", "Jobs in cybersecurity", "Cybersecurity career paths"],
+      "responses": ["Cybersecurity offers diverse career paths. Are you looking for information on careers in cybersecurity, job roles, or career development strategies for cybersecurity professionals?"]
+    },
+    {
+      "name": "cybersecurity_laws",
+      "patterns": ["Cybersecurity laws and regulations", "Legal aspects of cybersecurity", "Compliance in cybersecurity"],
+      "responses": ["Laws govern cybersecurity practices. Do you have questions about cybersecurity laws, compliance requirements, or legal aspects of cybersecurity practices?"]
+    },
+    {
+      "name": "ethical_hacking_intro",
+      "patterns": ["What is Ethical Hacking?", "Introduction to ethical hacking", "Ethical hacking definition"],
+      "responses": ["Ethical hacking identifies vulnerabilities. How can I help you understand more about ethical hacking?"]
+    },
+    {
+      "name": "white_hat_hackers",
+      "patterns": ["White hat hackers", "Role of ethical hackers", "Benefits of white hat hacking"],
+      "responses": ["White hat hackers are ethical. Do you have questions about the role of ethical hackers, benefits of white hat hacking, or how ethical hacking differs from malicious hacking?"]
+    },
+    {
+      "name": "ethical_hacking_tools",
+      "patterns": ["Tools used in ethical hacking", "Ethical hacking software", "Best tools for ethical hackers"],
+      "responses": ["Ethical hackers use specialized tools. Are you looking for information on tools used in ethical hacking, their functionalities, or recommendations for ethical hacking software?"]
+    },
+    {
+      "name": "penetration_testing",
+      "patterns": ["Penetration testing in ethical hacking", "Pen testing techniques", "Benefits of penetration testing"],
+      "responses": ["Penetration testing assesses security. Would you like information on penetration testing techniques, the benefits of pen testing, or how it contributes to ethical hacking practices?"]
+    },
+    {
+      "name": "ethical_hacking_certifications",
+      "patterns": ["Ethical hacking certifications", "Certifications for ethical hackers", "Getting certified in ethical hacking"],
+      "responses": ["Certifications validate ethical hacking skills. Are you looking for information on ethical hacking certifications, their benefits, or recommendations for certification programs?"]
+    },
+    {
+      "name": "ethical_hacking_careers",
+      "patterns": ["Careers in ethical hacking", "Jobs for ethical hackers", "Ethical hacking career paths"],
+      "responses": ["Ethical hacking offers diverse career paths. Are you looking for information on careers in ethical hacking, job roles, or career development strategies for ethical hackers?"]
+    },
+    {
+      "name": "legal_ethical_hacking",
+      "patterns": ["Legal aspects of ethical hacking", "Ethics in hacking", "Ethical hacking laws"],
+      "responses": ["Ethical hacking has legal considerations. Do you have questions about the legal aspects of ethical hacking, ethical considerations, or laws governing ethical hacking practices?"]
+    },
+    {
+      "name": "latest_in_ethical_hacking",
+      "patterns": ["Latest trends in ethical hacking", "Emerging technologies", "What's new in ethical hacking"],
+      "responses": ["Ethical hacking evolves. What specific trends or emerging technologies in ethical hacking are you interested in exploring for the future?"]
+    },
+    {
+      "name": "ethical_hacking_resources",
+      "patterns": ["Resources for learning ethical hacking", "Ethical hacking tutorials", "Getting started in ethical hacking"],
+      "responses": ["Learning ethical hacking requires resources. Are you looking for tutorials, guides, or recommendations on getting started and learning ethical hacking?"]
+    },
+    {
+      "name": "ethical_hacking_community",
+      "patterns": ["Ethical hacking community", "Networking with ethical hackers", "Ethical hacking forums"],
+      "responses": ["Being part of a community is valuable. Do you have questions about networking with ethical hackers, participating in forums, or engaging with the ethical hacking community?"]
+    },
+    {
+      "name": "networking_intro",
+      "patterns": ["What is Networking?", "Introduction to computer networking", "Definition of networking"],
+      "responses": ["Networking involves connecting computers and devices for communication. How can I help you understand more about computer networking?"]
+    },
+    {
+      "name": "network_types",
+      "patterns": ["Types of networks", "LAN vs WAN", "Networking classifications"],
+      "responses": ["Networks come in different types. Do you have questions about Local Area Networks (LAN), Wide Area Networks (WAN), or other classifications of networks?"]
+    },
+    {
+      "name": "network_architecture",
+      "patterns": ["Network architecture", "Designing computer networks", "Network topology"],
+      "responses": ["Designing networks requires planning. Would you like information on network architecture, designing computer networks, or understanding different network topologies?"]
+    },
+    {
+      "name": "network_protocols",
+      "patterns": ["Network protocols", "Common protocols in networking", "Protocol stack"],
+      "responses": ["Protocols enable communication. Do you have questions about common network protocols, the OSI model, or how the protocol stack works in networking?"]
+    },
+    {
+      "name": "ArtificialIntelligence",
+      "patterns": ["Tell me about artificial intelligence", "What is AI?", "Explain machine learning"],
+      "responses": ["Artificial Intelligence is a branch of computer science that aims to create intelligent machines.", "Machine learning is a subset of AI that involves training algorithms to learn patterns and make decisions."]
+    },
+    {
+      "name": "Blockchain",
+      "patterns": ["What is blockchain?", "Explain how blockchain works", "Tell me about cryptocurrency"],
+      "responses": ["Blockchain is a decentralized and distributed ledger technology.", "It works by recording transactions in a secure and transparent way.", "Cryptocurrency is a digital or virtual form of currency that uses cryptography for security."]
+    },
+    {
+      "name": "CloudComputing",
+      "patterns": ["What is cloud computing?", "Explain cloud services", "Tell me about popular cloud providers"],
+      "responses": ["Cloud computing involves delivering computing services over the internet.", "Cloud services include storage, databases, servers, networking, software, and analytics.", "Popular cloud providers include AWS, Azure, and Google Cloud."]
+    },
+    {
+      "name": "InternetOfThings",
+      "patterns": ["Explain the Internet of Things (IoT)", "How does IoT work?", "Tell me about smart devices"],
+      "responses": ["IoT refers to the network of interconnected physical devices that communicate and exchange data.", "It works by enabling devices to collect and share data over the internet.", "Smart devices include thermostats, wearables, and home automation systems."]
+    },
+    {
+      "name": "Cybersecurity",
+      "patterns": ["What is cybersecurity?", "Explain the importance of cybersecurity", "Tell me about common cyber threats"],
+      "responses": ["Cybersecurity involves protecting computer systems, networks, and data from theft, damage, or unauthorized access.", "It is crucial for safeguarding sensitive information and ensuring the integrity of systems.", "Common cyber threats include malware, phishing, and DDoS attacks."]
+    },
+    {
+      "name": "AugmentedReality",
+      "patterns": ["What is augmented reality (AR)?", "Explain AR applications", "Tell me about AR technology"],
+      "responses": ["Augmented reality enhances the real world with computer-generated information.", "AR applications include gaming, navigation, and educational tools.", "AR technology overlays digital content onto the user's view of the physical world."]
+    }
+  ]
+}
